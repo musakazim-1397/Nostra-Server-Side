@@ -15,7 +15,7 @@ app.use(routes);
 
 mongoose
   .connect(
-    `mongodb+srv://${process.env.MongoDB_UserName}:${process.env.MongoDB_password}@cluster0.bkrr8.mongodb.net/MyAmazonStore?retryWrites=true&w=majority`
+    `mongodb+srv://captn_nextJS007:uQEpRZWwOScQCOKq@cluster0.bkrr8.mongodb.net/MyAmazonStore?retryWrites=true&w=majority`
   )
   .then(() => {
     app.listen(5000, () => {
